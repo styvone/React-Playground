@@ -2,6 +2,7 @@ import React from 'react';
 import './Card.css';
 import profilePic from './imgs/profile.jpg';
 import statusPic from './imgs/status.png'
+import Button from './Button.js';
 
 class Card extends React.Component {
   constructor(props) {
@@ -9,7 +10,9 @@ class Card extends React.Component {
     this.state = {
       numReplies: 3,
       numShare: 27,
+      shareClicked: false,
       numLikes: 109,
+      likesClicked: false,
     };
   }
 
@@ -27,7 +30,7 @@ class Card extends React.Component {
         </div>
         <div id="Footer">
 
-        
+          <Button />
         
         </div>
       </div>
