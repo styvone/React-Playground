@@ -4,7 +4,9 @@ import './Button.css';
 function Button(props) {
 	return (
 		<button className="mainButton">
-			Follow
+			<span className={props.icon}>
+				<p>{props.value}</p>
+			</span>
 		</button>
 	);
 }
