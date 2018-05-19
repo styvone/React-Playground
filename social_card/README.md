@@ -1,2 +1,3 @@
-#social_card
+social_card:
+
 Modeling a Tweet from Twitter
